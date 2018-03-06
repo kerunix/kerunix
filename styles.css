@@ -57,3 +57,14 @@ footer {
 .social-medias {
     font-size: 25px;
 }
+.job-overview p {
+
+    padding-bottom: 0.7em;
+}
+.headline {
+    margin-bottom: 0 !important;
+    margin-top: 3em !important;
+}
+.headline-text {
+    font-size: 2.6em !important;
+}
