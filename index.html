@@ -13,168 +13,261 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Font Awesome Icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <title>Kerunix</title>
 </head>
 
 <body>
     <!-- Header -->
-    <div class="row teal valign-wrapper header z-depth-2">
-        <div class="col s4 left-text">
-            <h5 class="white-text flow-text">A developper who lives on coffee, music and code.</h5>
+    <header class="row teal valign-wrapper z-depth-2">
+        <div class="col s5 left-text">
+            <h5 class="white-text">A developper who lives on coffee, music and code.</h5>
         </div>
-        <div class="col s4 center-align">
+        <div class="col s2 center-align">
             <img src="/assets/images/panda.png" alt="A Cute Panda" class="circle responsive-img">
         </div>
-        <div class="col s4 right-text">
-            <h5 class="white-text flow-text">I love learning new things and being challenged.</h5>
+        <div class="col s5 right-text">
+            <h5 class="white-text">I love learning new things and being challenged.</h5>
         </div>
-    </div>
+    </header>
 
     <!-- Materialize Container -->
-    <div class="container">
-        <div class="row general">
-            <div class="col m4 s12 contact">
-                <div class="card medium hoverable ">
-                    <div class="card-content">
-                        <span class="card-title teal-text">CONTACT</span>
-                        <ul>
-                            <li>
-                                <a href="mailto:lafont.pierre.wcs@gmail.com">
-                                    <i class="material-icons teal-text">email</i>
-                                    <p>lafont.pierre.wcs@gmail.com</p>
-                                </a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a href="https://www.google.fr/maps/place/131+Chemin+Lapujade,+31200+Toulouse/@43.6264821,1.4535889,17" target="_blank">
-                                    <i class="material-icons teal-text">location_on</i>
-                                    <p>131, chemin de Lapujade</p>
-                                    <p class="city">31200, TOULOUSE</p>
-                                    <p class="city">FRANCE</p>
-                                </a>
-                            </li>
-                            <hr>
-                            <li>
-                                <i class="material-icons teal-text">phone</i>
-                                <p>+33 6.98.63.15.80</p>
-                            </li>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col m4 s12">
+                    <div class="card medium">
+                        <div class="card-content">
+                            <span class="card-title teal-text">CONTACT</span>
+                            <ul class="">
+                                <li>
+                                    <a href="mailto:lafont.pierre.wcs@gmail.com">
+                                        <i class="material-icons teal-text">email</i>
+                                        <p>lafont.pierre.wcs@gmail.com</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.google.fr/maps/place/131+Chemin+Lapujade,+31200+Toulouse/@43.6264821,1.4535889,17" target="_blank">
+                                        <i class="material-icons teal-text">location_on</i>
+                                        <p>131, chemin de Lapujade</p>
+                                        <p class="city">31200, TOULOUSE</p>
+                                        <p class="city">FRANCE</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="material-icons teal-text">phone</i>
+                                    <p>+33 6.98.63.15.80</p>
+                                </li>
 
-                        </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card medium">
+                        <div class="card-content">
+                            <span class="card-title teal-text">EDUCATION</span>
+                            <ul class="">
+                                <li>
+                                    <h6 class="date">2017</h6>
+                                    <p>Développer Logiciel (Bac +2)</p>
+                                    <p>Wild Code School</p>
+                                    <p>Toulouse (31)</p>
+                                </li>
+                                <li>
+                                    <h6 class="date">2008</h6>
+                                    <p>Baccalauréat Général Série ES</p>
+                                    <p>Institution Sainte Marie</p>
+                                    <p>Antony (92)</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m4 s12">
+                    <div class="card medium">
+                        <div class="card-content">
+                            <span class="card-title teal-text">SKILLS</span>
+                            <div class="col s12">
+                                <!-- HTML -->
+                                <div class="star-ratings">
+                                    <p>HTML 5</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                    </div>
+                                </div>
+                                <!-- CSS -->
+                                <div class="star-ratings">
+                                    <p>CSS</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star_half</i>
+                                    </div>
+                                </div>
+                                <!-- JavaScript -->
+                                <div class="star-ratings">
+                                    <p>JavaScript</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star_half</i>
+                                        <i class="material-icons tiny teal-text">star_border</i>
+                                    </div>
+                                </div>
+                                <!-- Angular -->
+                                <div class="star-ratings">
+                                    <p>Angular 5</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star_half</i>
+                                        <i class="material-icons tiny teal-text">star_border</i>
+                                    </div>
+                                </div>
+                                <!-- Node.js -->
+                                <div class="star-ratings">
+                                    <p>Node.js</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star_border</i>
+                                        <i class="material-icons tiny teal-text">star_border</i>
+                                    </div>
+                                </div>
+                                <!-- Material -->
+                                <div class="star-ratings">
+                                    <p>Material</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star_half</i>
+                                    </div>
+                                </div>
+                                <!-- GIT -->
+                                <div class="star-ratings">
+                                    <p>Git</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star_border</i>
+                                    </div>
+                                </div>
+                                <!-- English -->
+                                <div class="star-ratings">
+                                    <p>English</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                    </div>
+                                </div>
+                                <!-- Scrum -->
+                                <div class="star-ratings">
+                                    <p>SCRUM</p>
+                                    <div>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star</i>
+                                        <i class="material-icons tiny teal-text">star_border</i>
+                                    </div>
+                                </div>
+                                <hr>
+                                <p class="center-align">And more to come as I keep learning !!</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col s12 m4 education">
-                <div class="card medium hoverable ">
-                    <div class="card-content">
-                        <span class="card-title teal-text">EDUCATION</span>
-                        <ul>
-                            <li>
-                                <h6 class="date">2017</h6>
-                                <p>Développer Logiciel (Bac +2)</p>
-                                <p>Wild Code School</p>
-                                <p>Toulouse (31)</p>
-                            </li>
-                            <hr>
-                            <li>
-                                <h6 class="date">2008</h6>
-                                <p>Baccalauréat Général Série ES</p>
-                                <p>Institution Sainte Marie</p>
-                                <p>Antony (92)</p>
-                            </li>
-                        </ul>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title teal-text">WORK EXPERIENCES</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col m4 s12 skills">
-                <div class="card medium hoverable sticky-action">
-                    <div class="card-content">
-                        <span class="card-title teal-text">SKILLS</span>
-                        <div class="col m5 s8 l8">
-                            <p>HTML 5</p>
-                            <p>CSS</p>
-                            <p>JavaScript</p>
-                            <p>Angular 5</p>
-                            <p>Node.js</p>
-                            <p>Material</p>
-                            <p>Git</p>
-                            <p>English</p>
-                            <p>SCRUM</p>
+            <div class="row">
+                <div class="col s6">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="/assets/images/mlsms-thumbnail.png">
                         </div>
-                        <div class="col m7 s4 l4">
-                            <!-- HTML -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <!-- CSS -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <!-- JavaScript -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star_half</i>
-                            <i class="material-icons tiny teal-text">star_border</i>
-                            <!-- Angular -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star_half</i>
-                            <i class="material-icons tiny teal-text">star_border</i>
-                            <!-- Node.js -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star_border</i>
-                            <i class="material-icons tiny teal-text">star_border</i>
-                            <!-- Material -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star_half</i>
-                            <!-- GIT -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star_border</i>
-                            <!-- English -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <!-- Scrum -->
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star</i>
-                            <i class="material-icons tiny teal-text">star_border</i>
+                        <div class="card-content blue-grey darken-3">
+                            <span class="card-title activator white-text">Inovans - Mon Livre SMS
+                                <i class="material-icons right teal-text text-lighten-1">more_vert</i>
+                            </span>
                         </div>
-                        <div>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <hr>
-                            <p class="center-align">And more to come as I keep learning !!</p>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Skills
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s6">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="/assets/images/mlsms-thumbnail.png">
+                        </div>
+                        <div class="card-content blue-grey darken-3">
+                            <span class="card-title activator white-text">Inovans - Mon Livre SMS
+                                <i class="material-icons right teal-text text-lighten-1">more_vert</i>
+                            </span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Skills
+                                <i class="material-icons right">close</i>
+                            </span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+    <footer class="blue-grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s4">
+                    <p class="white-text">© Kerunix 2018</p>
+                </div>
+                <div class="col s4"></div>
+                <div class="col s4 social-medias">
+                    <a href="">
+                        <i class="fab fa-facebook-square white-text"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter-square white-text"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-github-square white-text"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>

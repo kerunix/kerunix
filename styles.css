@@ -10,7 +10,12 @@ a {
 
 a:link {
     color: black;
+}
 
+.star-ratings {
+    display: flex;
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
 }
 
 ul {
@@ -21,20 +26,16 @@ ul li {
     padding-bottom: 1em;
 }
 
-#city {
-    padding-top: 0.5em;
-}
-
-.header {
+header {
     padding: 0.3em;
 }
 
-.left-text {
-    text-align: left;
+.left-text, .social-medias {
+    text-align: right;
 }
 
 .right-text {
-    text-align: right;
+    text-align: left;
 }
 
 .card-title {
@@ -44,4 +45,15 @@ ul li {
 .date {
     font-size: 1.4em;
     font-weight: bolder;
+    margin: 0.5em;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.social-medias {
+    font-size: 25px;
 }
